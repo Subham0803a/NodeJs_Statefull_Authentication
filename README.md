@@ -29,3 +29,5 @@ bcrypt:- A library for securely hashing passwords using a one-way algorithm.
 Express Session (connect-mongo):- Middleware for managing user sessions with a MongoDB store for persistence.
 
 EJS:- A templating engine for generating dynamic HTML content based on data.
+
+Nodemon:- It automatically restarting the node application when file changes in the directory are detected.
