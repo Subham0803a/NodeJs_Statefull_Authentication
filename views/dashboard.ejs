@@ -1,0 +1,38 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+</head>
+<body>
+    <h1>welcome to dashboard</h1>
+    <img src="https://goteleport.com/docs/_next/static/assets/login-success-34ebe095d0.png" alt="">
+</body>
+</html> -->
+
+<!-- --------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/dashboard.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <h1>Welcome to Dashboard</h1>
+        <% if (user) { %>
+            <p>Hello, <%= user.username %>!</p>
+            <% } %>
+                <img src="https://goteleport.com/docs/_next/static/assets/login-success-34ebe095d0.png"
+                    alt="Login Success">
+                <a href="/logout" class="logout-btn"><button>Logout</button></a>
+    </div>
+</body>
+
+</html>
